@@ -1,0 +1,41 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    margin-top: 0;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+nav h1{
+margin: 0;
+font-size: 40px;
+}
+
+nav a{
+    margin: 0;
+    height: 45px;
+    }
+    
+nav ul{
+    display: inline-flex;
+    list-style-type:none ;
+    margin: 0;
+    padding: 0;
+}
+    
+nav li{
+    padding-left:  15px;
+    padding-top: 15px;
+    align-items: center;
+
+}
+
+nav li a{
+    text-decoration: none;
+}
+
+h1 a{
+    text-decoration: none;
+}
+
