@@ -41,3 +41,50 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .container {
+        font-size: medium;
+        padding: 15px;
+    }
+
+    .card,
+    .card3 {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .header {
+        font-size: 20px;
+        padding: 15px;
+    }
+
+    .footer {
+        font-size: 14px;
+        padding: 15px;
+    }
+}
+
+
+@media (min-width: 769px) {
+    .container {
+        font-size: large;
+        padding: 20px;
+    }
+
+    .card,
+    .card3 {
+        font-size: 18px;
+        margin-bottom: 25px;
+    }
+
+    .header {
+        font-size: 22px;
+        padding: 20px;
+    }
+
+    .footer {
+        font-size: 16px;
+        padding: 20px;
+    }
+}
